@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('web.layout.master')
 
 @section('content')
 
@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div class="lg:grid lg:grid-cols-4 lg:gap-3  w-full px-2 lg:mx-20 lg:my-3 ">
+    <div class="lg:grid lg:grid-cols-4 lg:gap-5 px-2 lg:mx-20 lg:my-3 ">
 
         <div class="lg:col-span-3">
 
@@ -130,10 +130,10 @@
         </div>
 
 
-        <div class="lg:col-span-1 px-0 lg:px-5">
+        <div class="lg:col-span-1 px-0 lg:px-2">
 
-            <div class="my-5 hidden lg:block">
-                <div class="text-xl lg:text-2xl w-1/4 bg-gray-sl">Category</div>
+            <div class="my-5 hidden lg:block w-full">
+                <div class="text-xl lg:text-2xl w-32 text-center bg-gray-sl">Category</div>
 
                 <div class="border border-gray-sl rounded-md my-5 py-5">
                     <div class="border-b border-dashed border-gray-sl my-2 mx-10">Politics</div>
@@ -143,9 +143,9 @@
                     <div class="border-b border-dashed border-gray-sl my-2 mx-10">Sclence</div>
                 </div>
 
-                <div class="inline-flex justify-between w-full border-b border-blue">
-                    <input class="h-10 placeholder:pl-3 w-2/3" type="text" placeholder="Enter keywords">
-                    <button class="bg-blue text-white px-0 lg:px-5 py-2 h-10 w-1/3"> <b>Search</b> </button>
+                <div class="inline-flex justify-between w-full border-b border-[#0C79FF]">
+                    <input class="h-10 placeholder:pl-3 w-2/3 focus:border-none" type="text" placeholder="Enter keywords">
+                    <button class="bg-[#0C79FF] text-white px-0  lg:px-2 py-2 h-10 w-1/3 text-lg"> <b>Search</b> </button>
                 </div>
             </div>
 

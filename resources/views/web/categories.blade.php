@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('web.layout.master')
 
 @section('content')
 
@@ -139,7 +139,7 @@
             <div class="lg:col-span-1 mx-1 my-4 -top-8 border-none rounded-lg lg:boder-b lg:border-none border-gray absolute lg:static ">
 
                 <div class="my-5 hidden lg:block ">
-                    <div class="text-xl lg:text-2xl py-2 w-32 px-2 bg-gray-sl">Category</div>
+                    <div class="text-xl lg:text-2xl py-2 w-32 px-2 text-center bg-gray-sl">Category</div>
 
                     <div class="border border-gray-sl rounded-md my-5 py-5">
                         <div class="border-b border-dashed border-gray-sl my-2 mx-10 text-xl">Politics</div>

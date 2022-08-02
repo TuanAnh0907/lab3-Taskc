@@ -13,7 +13,7 @@
 
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
 
-    @include('layout.style')
+    @include('web.layout.style')
 
     @stack('style')
 
@@ -21,15 +21,15 @@
 
 <body>
 
-    @include('layout.header')
+    @include('web.layout.header')
 
     <div class="wapper">
         @yield('content')
     </div>
 
-    @include('layout.footer')
+    @include('web.layout.footer')
 
-    @include('layout.script')
+    @include('web.layout.script')
 
     @stack('script')
 
